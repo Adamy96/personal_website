@@ -1,0 +1,34 @@
+.mySkills {
+    padding: 0 20px 50px 20px;
+    color: var(--color-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-family: ThunderStrike;
+        font-size: var(--font-xx-small-size);
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        [class^='topSkills'] {
+            width: 47%;
+
+            .subtitle {
+                font-size: var(--font-xxx-small-size);
+                font-family: ThunderStrike;
+                color: var(--color-blue);
+                margin-bottom: 12px;
+            }
+
+            .skillBar:not(:last-of-type) .bar {
+                margin-bottom: 4px;
+            }
+        }
+    }
+}

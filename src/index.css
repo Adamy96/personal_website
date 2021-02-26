@@ -10,3 +10,11 @@
         url("./fonts/thunderstrikelaser.ttf") format("truetype");
     font-weight: normal;
 }
+
+@font-face {
+    font-family: "ThunderStrike";
+    src: local("ThunderStrike"),
+        url("./fonts/thunderstrike.ttf") format("truetype");
+    font-weight: normal;
+}
+

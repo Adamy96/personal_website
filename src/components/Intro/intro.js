@@ -1,25 +1,23 @@
 import React from 'react';
-import Topbar from './Topbar';
 import RandomEffect from './RandomEffect';
 import './intro.scss';
 
 const Intro = () => {
     return (
         <div className='intro'>
-            <Topbar />
             <RandomEffect
                 message='Hello world, my name is'
-                delay={2000}
+                delay={1000}
                 minInterval={30}
             />
             <RandomEffect
                 message='Vinícius Adamy'
-                delay={4000}
+                delay={3000}
                 minInterval={30}
             />
             <RandomEffect
                 message='Frontend developer'
-                delay={6000}
+                delay={4500}
                 minInterval={30}
             />
             <p className='description'>
