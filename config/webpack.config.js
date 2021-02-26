@@ -324,7 +324,9 @@ module.exports = function (webpackEnv) {
       alias: {
         '@assets': path.resolve(__dirname, '../src/assets'),
         '@components': path.resolve(__dirname, '../src/components'),
+        '@data': path.resolve(__dirname, '../src/data'),
         '@design': path.resolve(__dirname, '../src/design'),
+        '@fonts': path.resolve(__dirname, '../src/fonts'),
         '@pages': path.resolve(__dirname, '../src/pages'),
         // Support React Native Web
         // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/

@@ -3,7 +3,8 @@ import './topbar.scss';
 
 const Topbar = () => {
     return (
-        <div className='intro_topbar'>
+        <div className='topbar'>
+            <div></div>
             <div></div>
             <div></div>
             <div></div>
