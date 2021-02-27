@@ -2,6 +2,7 @@ import React from 'react';
 import Topbar from '@components/Topbar';
 import Intro from '@components/Intro';
 import MySkills from '@components/MySkills';
+import MyWorks from '@components/MyWorks';
 import './homepage.scss';
 
 const Homepage = () => {
@@ -10,6 +11,7 @@ const Homepage = () => {
             <Topbar />
             <Intro />
             <MySkills />
+            <MyWorks />
         </div>
     )
 }

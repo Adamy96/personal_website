@@ -8,11 +8,13 @@
     .title {
         font-family: ThunderStrike;
         font-size: var(--font-xx-small-size);
+        font-weight: var(--font-regular-weight);
         margin-bottom: 20px;
     }
 
     .container {
         width: 100%;
+        max-width: 380px;
         display: flex;
         justify-content: space-between;
 

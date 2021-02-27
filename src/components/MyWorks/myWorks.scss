@@ -1,0 +1,25 @@
+.myWorks {
+    padding: 0 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-family: ThunderStrike;
+        font-size: var(--font-xx-small-size);
+        font-weight: var(--font-regular-weight);
+        margin-bottom: 30px;
+        color: var(--color-light);
+        text-align: center;
+    }
+
+    .projectsContainer {
+        display: flex;
+        flex-direction: column;
+        max-width: 380px;
+    }
+
+    .project:not(:last-of-type) {
+        margin-bottom: 34px;
+    }
+}

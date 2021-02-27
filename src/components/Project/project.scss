@@ -1,0 +1,38 @@
+.project {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--color-light);
+    font-family: var(--font-primary-family);
+    font-size: var(--font-xxx-small-size);
+    font-weight: var(--font-bold-weight);
+
+    img {
+        width: 120px;
+        height: 120px;
+        clip-path: polygon(
+            0 0,
+            77% 0,
+            100% 23%,
+            100% 100%,
+            23% 100%,
+            0 77%
+        );
+        margin-right: 15px;
+    }
+
+    .content {
+        .subname {
+            color: var(--color-light-60transparent);
+            margin-bottom: 10px;
+        }
+
+        .label {
+            color: var(--color-blue);
+        }
+
+        .stack {
+            margin-bottom: 5px;
+        }
+    }
+}
