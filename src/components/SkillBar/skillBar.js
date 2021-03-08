@@ -16,7 +16,9 @@ const SkillBar = ({ label, percentage }) => {
                         ${percentage-5}% 100%,
                         0 100%)
                     ` }}
-                ></div>
+                >
+                    <span></span>
+                </div>
             </div>
         </div>
     )

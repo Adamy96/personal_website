@@ -10,7 +10,7 @@ export const mySkills1 = [
     {
         label: 'GraphQL',
         percentage: 65
-    }
+    },
 ];
 
 export const mySkills2 = [

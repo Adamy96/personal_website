@@ -1,7 +1,7 @@
 import minervaFoods from '@assets/png/minervaFoods.png';
 import parceiroAmbev from '@assets/png/parceiroAmbev.png';
 
-export default [
+const myWorks = [
     {
         imgSrc: parceiroAmbev,
         name: 'Parceiro Ambev',
@@ -17,3 +17,5 @@ export default [
         duration: '12 months'
     }
 ]
+
+export default myWorks;

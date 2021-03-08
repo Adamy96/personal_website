@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-image: linear-gradient(
+        transparent,
+        var(--color-pink-10transparent) 25%,
+        var(--color-pink-40transparent)
+    );
+
+    .container {
+        display: flex;
+        margin-top: 13px;
+
+        a:nth-of-type(2) {
+            margin: 0 6px;
+        }
+    }
+}
